@@ -4,6 +4,10 @@
 
 This project is dedicated to learning and practicing Python programming. It contains solutions to various exercises and problems that I have encountered while studying Python. Each solution is implemented based on the concepts and materials that I have learned.
 
+<div align="center">
+  <img src="thumbnail.webp" height="350px">
+</div>
+
 ## Table of Contents
 - Each part of the Exercise is located in its own folder. 
 - Questions are categorized into two difficulty levels : easy and medium.
