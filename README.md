@@ -24,5 +24,5 @@ cd (folder-name)
 cd ..
 
 # Run The Application
-python main.py
+python python filename.py
 </pre>
