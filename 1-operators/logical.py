@@ -1,6 +1,6 @@
 """
 ! category : easy
-TODO: Create a program that determines whether a person qualifies for a scholarship program. The program must : (1). Request input from the user : Academic score (0-100), Age (in years) Employment status (working/not working - input as True/False), (2). Use logical operators (and, or, not) to determine : Eligible Category 1: If academic score is above 80 AND age is below 25, Eligible Category 2: If academic score is above 90 OR age is below 20, Eligible Category 3: If academic score is above 70 AND NOT working, (3). Display the eligibility results for all three categories (True/Fa
+TODO: Create a program that determines whether a person qualifies for a scholarship program. The program must : (1). Request input from the user : Academic score (0-100), Age (in years) Employment status (working/not working - input as True/False), (2). Use logical operators (and, or, not) to determine : Eligible Category 1: If academic score is above 80 AND age is below 25, Eligible Category 2: If academic score is above 90 OR age is below 20, Eligible Category 3: If academic score is above 70 AND NOT working, (3). Display the eligibility results for all three categories (True/False)
 """
 
 print("eligibility checker\n===================")
