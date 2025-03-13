@@ -1,6 +1,6 @@
 """
 ! category : easy
-TODO : Create a program that calculates the average of 3 exam scores. The program should : Ask the user to input 3 exam scores (Mathematics, Physics, and Language), Calculate the average of these three scores, Display the average result with 2 decimal places
+TODO : Create a program that calculates the average of 3 exam scores. The program should : (1). Ask the user to input 3 exam scores (Mathematics, Physics, and Language). (2). Calculate the average of these three scores. (3). Display the average result with 2 decimal places.
 """
 
 
@@ -18,7 +18,7 @@ print(average_value(math, physics, language))
 
 """
 ! category : medium
-TODO : Create a program that converts time input in seconds into hours, minutes, and seconds format. The program must : Accept input in the form of an integer representing the number of seconds, Use arithmetic operators to calculate hours, minutes, and remaining seconds, the result in the format "X hours, Y minutes, Z seconds"
+TODO : Create a program that converts time input in seconds into hours, minutes, and seconds format. The program must : (1). Accept input in the form of an integer representing the number of seconds. (2). Use arithmetic operators to calculate hours, minutes, and remaining seconds. (3). the result in the format "X hours, Y minutes, Z seconds".
 """
 
 

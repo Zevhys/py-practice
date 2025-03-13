@@ -1,6 +1,6 @@
 """
 ! category : easy
-TODO: Create a program that asks the user to input a number, then determines the category of that number. The program must : Request a number input from the user Use comparison operators to check and display the following : Is the number greater than 0 (positive)?, Is the number less than 0 (negative)?, Is the number equal to 0?, Is the number even or odd?, Is the number greater than 100 or less than/equal to 100?
+TODO : Create a program that asks the user to input a number, then determines the category of that number. The program must : (1). Request a number input from the user. (2). Use comparison operators to check and display the following : Is the number greater than 0 (positive)?, Is the number less than 0 (negative)?, Is the number equal to 0?, Is the number even or odd?, Is the number greater than 100 or less than/equal to 100?.
 """
 
 print("Check the numbers category\n==========================")
@@ -11,9 +11,8 @@ print(
 
 """
 ! category : medium
-TODO: Create a program that helps determine a student's passing status and grade category. The program must : Ask for the midterm (UTS) and final exam (UAS) scores from the user (range 0-100), Calculate the final score with the following weights: 40% midterm and 60% final exam, Use comparison operators to determine : Passing status: Pass if the final score is >= 60, fail if < 60, Grade category : A: final score >= 85, B: final score >= 70 and < 85, C: final score >= 60 and < 70, D: final score >= 50 and < 60, E: final score < 50, Perfect score: if the final score = 100, Is the final exam score higher than the midterm score?, Are both scores (midterm and final exam) equal?
+TODO : Create a program that helps determine a student's passing status and grade category. The program must : (1). Ask for the midterm (UTS) and final exam (UAS) scores from the user (range 0-100). (2). Calculate the final score with the following weights: 40% midterm and 60% final exam. (3). Use comparison operators to determine : Passing status: Pass if the final score is >= 60, fail if < 60, Grade category : A : final score >= 85, B : final score >= 70 and < 85, C : final score >= 60 and < 70, D : final score >= 50 and < 60, E : final score < 50, Perfect score: if the final score = 100, Is the final exam score higher than the midterm score?, Are both scores (midterm and final exam) equal?.
 """
-
 
 print(
     "determination of student value Categories\n========================================="

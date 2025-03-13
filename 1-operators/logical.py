@@ -1,6 +1,6 @@
 """
 ! category : easy
-TODO: Create a program that determines whether a person qualifies for a scholarship program. The program must : (1). Request input from the user : Academic score (0-100), Age (in years) Employment status (working/not working - input as True/False), (2). Use logical operators (and, or, not) to determine : Eligible Category 1: If academic score is above 80 AND age is below 25, Eligible Category 2: If academic score is above 90 OR age is below 20, Eligible Category 3: If academic score is above 70 AND NOT working, (3). Display the eligibility results for all three categories (True/False)
+TODO : Create a program that determines whether a person qualifies for a scholarship program. The program must : (1). Request input from the user : Academic score (0-100), Age (in years) Employment status (working/not working - input as True/False). (2). Use logical operators (and, or, not) to determine : Eligible Category 1 : If academic score is above 80 AND age is below 25, Eligible Category 2 : If academic score is above 90 OR age is below 20, Eligible Category 3 : If academic score is above 70 AND NOT working. (3). Display the eligibility results for all three categories (True/False).
 """
 
 print("eligibility checker\n===================")
@@ -14,7 +14,7 @@ print(
 
 """
 ! category : medium
-TODO: Create a program that validates password strength based on several criteria. The program must : (1). Ask the user to enter a password. (2). Use logical operators to check the following criteria : Password length is at least 8 characters, Contains at least 1 uppercase letter, Contains at least 1 lowercase letter, Contains at least 1 digit. (3). Determine the password strength : Very Strong : If it meets ALL criteria, Strong : If it meets the length criteria AND (at least 2 of the other 3 criteria), Medium : If it meets the length criteria AND (at least 1 of the other 3 criteria), Weak : If it ONLY meets the length criteria, Very Weak : If it does NOT meet the length criteria,
+TODO : Create a program that validates password strength based on several criteria. The program must : (1). Ask the user to enter a password. (2). Use logical operators to check the following criteria : Password length is at least 8 characters, Contains at least 1 uppercase letter, Contains at least 1 lowercase letter, Contains at least 1 digit. (3). Determine the password strength : Very Strong : If it meets ALL criteria, Strong : If it meets the length criteria AND (at least 2 of the other 3 criteria), Medium : If it meets the length criteria AND (at least 1 of the other 3 criteria), Weak : If it ONLY meets the length criteria, Very Weak : If it does NOT meet the length criteria.
 """
 
 print("password validator\n==================")
