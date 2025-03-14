@@ -27,6 +27,6 @@ cd (folder-name)
 # To move back to the parent directory
 cd ..
 
-# Run The Application
+# Run the Script
 python (filename.py)
 </pre>
