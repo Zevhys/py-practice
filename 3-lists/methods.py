@@ -38,8 +38,8 @@ print("\nsort alphabetically:", playlist)
 playlist.reverse()
 print("\nreverse order:", playlist)
 
-coppy = playlist.copy()
-print("\ncreate copy:", coppy)
+copy = playlist.copy()
+print("\ncreate copy:", copy)
 
 playlist.clear()
 print("\nclear original playlist:", playlist)
@@ -86,7 +86,7 @@ for i, data in enumerate(sales_data):
         may_index = i
         break
 
-print("\nFind 'May' position:", may_index)
+print("\nfind 'May' position:", may_index)
 
 additional_data = [["July", 240, 24000000], ["August", 220, 22000000]]
 sales_data.extend(additional_data)
@@ -105,4 +105,4 @@ total_revenue = 0
 for data in sales_data:
     total_revenue += data[2]
 
-print(f"\ncalculate total revenue", total_revenue)
+print(f"\ncalculate total revenue: Rp", total_revenue)
