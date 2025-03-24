@@ -11,7 +11,8 @@ data_students = (
     ("Yeri", "0005", 80),
 )
 
-find_score = sum((score.count(85) for score in data_students))
+score = tuple(student[2] for student in data_students)
+find_score = score.count(85)
 print("how many students received a particular score:", find_score)
 
 name = tuple((name[0] for name in data_students))
@@ -33,7 +34,7 @@ transaction = (
 
 
 def find_transaction(data_transaction, product):
-    product_names = tuple(name[1] for name in transaction)
+    product_names = tuple(name[1] for name in data_transaction)
     first_index = product_names.index(product)
     occurrence_count = product_names.count(product)
     total_sales = sum(qty for _, name, qty, _ in data_transaction if name == product)
