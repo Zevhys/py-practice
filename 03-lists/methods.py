@@ -1,6 +1,6 @@
 """
-! category : easy
-TODO : Create a program that manages a music playlist using various list methods. This program will help you understand the use of common list methods for processing data in list form. Start with the following playlist: playlist = ["Shape of You", "Despacito", "Blinding Lights", "Dance Monkey", "Uptown Funk"]. Your tasks are: 1. Display the initial playlist, 2. Add the song "Watermelon Sugar" to the playlist, 3. Insert the song "Believer" at the third position (index 2), 4. Add multiple songs at once: ["Bad Guy", "Levitating"], 5. Remove the song "Despacito" from the playlist, 6. Remove and display the last song from the playlist, 7. Find the position of the song "Blinding Lights", 8. Count how many times the song "Dance Monkey" appears in the playlist, 9. Sort the playlist alphabetically, 10. Reverse the playlist order, 11. Create a copy of the playlist, 12. Remove all songs from the original playlist (not the copy).
+! Category: Easy
+Todo: Create a program that manages a music playlist using various list methods. This program will help you understand the use of common list methods for processing data in list form. Start with the following playlist: playlist = ["Shape of You", "Despacito", "Blinding Lights", "Dance Monkey", "Uptown Funk"]. Your tasks are: 1. Display the initial playlist, 2. Add the song "Watermelon Sugar" to the playlist, 3. Insert the song "Believer" at the third position (index 2), 4. Add multiple songs at once: ["Bad Guy", "Levitating"], 5. Remove the song "Despacito" from the playlist, 6. Remove and display the last song from the playlist, 7. Find the position of the song "Blinding Lights", 8. Count how many times the song "Dance Monkey" appears in the playlist, 9. Sort the playlist alphabetically, 10. Reverse the playlist order,11. Create a copy of the playlist, 12. Remove all songs from the original playlist (not the copy).
 """
 
 playlist = [
@@ -45,8 +45,8 @@ playlist.clear()
 print("\nclear original playlist:", playlist)
 
 """
-! category : medium
-TODO : Create a program that processes monthly sales data using various list methods. This program will help you understand the use of list methods for simple data analysis. Initial data: # Monthly sales data in format [month, number_of_products_sold, total_revenue] sales_data = [["January", 150, 15000000], ["February", 200, 20000000], ["March", 180, 18000000], ["April", 210, 21000000], ["May", 190, 19500000]]. # List of best-selling products [product_name, quantity_sold] best_selling_products = [["Gaming Laptop", 45], ["Smartphone", 80], ["Headphone", 65]]. Your tasks are: 1. Display initial data, 2. Add June data: ["June", 230, 23500000], 3. Insert between March-April: ["March (Revised)", 195, 19800000], 4. Find "May" position, 5. Add from additional_data list: additional_data = [["July", 240, 24000000], ["August", 220, 22000000]], 6. Copy best_selling_products, 7. Add to copy: ["Bluetooth Speaker", 50], 8. Sort by products sold (highest-lowest), 9. Calculate total revenue.
+! Category: Medium
+Todo: Create a program that processes monthly sales data using various list methods. This program will help you understand the use of list methods for simple data analysis. Initial data: sales_data = [["January", 150, 15000000], ["February", 200, 20000000], ["March", 180, 18000000], ["April", 210, 21000000], ["May", 190, 19500000]], best_selling_products = [["Gaming Laptop", 45], ["Smartphone", 80], ["Headphone", 65]], additional_data = [["July", 240, 24000000], ["August", 220, 22000000]]. Your tasks are: 1. Display initial data, 2. Add June data: ["June", 230, 23500000], 3. Insert between March-April: ["March (Revised)", 195, 19800000], 4. Find "May" position, 5. Add from additional_data list to sales_data, 6. Copy best_selling_products, 7. Add to copy: ["Bluetooth Speaker", 50], 8. Sort by products sold (highest-lowest), 9. Calculate total revenue.
 """
 
 sales_data = [
