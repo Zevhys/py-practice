@@ -1,6 +1,6 @@
 """
-! category : easy
-TODO :  1. Use tuple unpacking to print information for each student in the format: "Name: [name], Student ID: [student_id], Score: [score]",  2. Use a for loop to access each tuple in the list and perform tuple unpacking within that loop. student_data = [("Budi", "A001", 85), ("Ani", "A002", 90), ("Dodi", "A003", 75), ("Rina", "A004", 88)].
+! Category: Easy
+Todo: 1. Use tuple unpacking to print information for each student in the format: "Name: [name], Student ID: [student_id], Score: [score]", 2. Use a for loop to access each tuple in the list and perform tuple unpacking within that loop, student_data = [("Budi", "A001", 85), ("Ani", "A002", 90), ("Dodi", "A003", 75), ("Rina", "A004", 88)].
 """
 
 student_data = [
@@ -14,8 +14,8 @@ for name, student_id, score in student_data:
     print(f"name: {name}, student id: {student_id}, score: {score}")
 
 """
-! category : medium
-TODO : 1. Create a function find_cheapest_and_most_expensive() that takes a list of products, 2. The function should use tuple unpacking to find the cheapest and most expensive products based on price, 3. The function should return a tuple containing two values: (cheapest_product, most_expensive_product), where each is a tuple of (name, price, stock), 4. Call the function with the products list and print the results in an easy-to-read format. products = [("Book", 50000, 10), ("Pencil", 5000, 50), ("Bag", 150000, 5), ("Eraser", 3000, 100)]
+! Category: Medium
+Todo: 1. Create a function find_cheapest_and_most_expensive() that takes a list of products, 2. The function should use tuple unpacking to find the cheapest and most expensive products based on price, 3. The function should return a tuple containing two values: ‣(cheapest_product, most_expensive_product), ‣where each is a tuple of (name, price, stock), 4. Call the function with the products list and print the results in an easy-to-read format. products = [("Book", 50000, 10), ("Pencil", 5000, 50), ("Bag", 150000, 5), ("Eraser", 3000, 100)].
 """
 
 products = [

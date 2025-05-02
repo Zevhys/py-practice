@@ -1,6 +1,6 @@
 """
-! category : easy
-TODO : 1. Create a student_data tuple containing 5 tuples. Each tuple should contain student information in the format (name, student_ID, score), 2. Name is a string, student_ID is a string, and score is an integer (0-100), 3. Display how many students received a particular score (the score is provided in the template code), 4. Find the position of the first student with a specific name (the name is provided in the template code). Code Template: score_to_find = 85, name_to_find = "Budi"
+! Category: Easy
+Todo: 1. Create a student_data tuple containing 5 tuples. Each tuple should contain student information in the format (name, student_ID, score). ‣Name is a string, ‣student_ID is a string, ‣score is an integer (0-100), 2. Display how many students received a particular score (the score is provided in the template code), 3. Find the position of the first student with a specific name (the name is provided in the template code), Template Variables: score_to_find = 85, name_to_find = "Budi".
 """
 
 data_students = (
@@ -20,8 +20,8 @@ find_name = name.index("Budi")
 print(f"\nstudent named {name[0]} is in the position:", find_name)
 
 """
-! category : medium
-TODO :  1. Use the `transactions` tuple containing several tuples. Each tuple is in the format (transaction_ID, product, quantity, unit_price), 2. transaction_ID is a string, product is a string, quantity is an integer, and unit_price is an integer, 3. Implement a function `find_transaction` that takes a tuple of transactions and the product name to search for as parameters, 4. Within the function: • Find the index of the first transaction that sells the specified product. • Count how many times the product appears in the transaction list. • Calculate the total sales by summing the quantity of items from each transaction that sells the specified product. • Return a tuple containing (first_index, occurrence_count, total_sales). 5. Demonstrate the usage of the function by searching for the product data "Book" and "Pencil".
+! Category: Medium
+Todo: Data Structure: ‣Use the `transactions` tuple containing several tuples, ‣Each tuple is in the format (transaction_ID, product, quantity, unit_price), ‣transaction_ID is a string, ‣product is a string, ‣quantity is an integer, ‣unit_price is an integer. Tasks: 1. Implement a function `find_transaction` that takes a tuple of transactions and the product name to search for as parameters, 2. Within the function: ‣Find the index of the first transaction that sells the specified product, ‣Count how many times the product appears in the transaction list, ‣Calculate the total sales by summing the quantity of items from each transaction that sells the specified product, ‣Return a tuple containing (first_index, occurrence_count, total_sales), 3. Demonstrate the usage of the function by searching for the products "Book" and "Pencil".
 """
 
 transaction = (
