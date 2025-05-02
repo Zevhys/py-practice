@@ -1,6 +1,6 @@
 """
-! category : easy
-TODO : Create a nested dictionary that stores information about two students. Each student has the following data: Name, Age, Favorite Subject. Instructions: 1. Create a dictionary with a nested structure containing data for two students, 2. Display the age of one of the students using access to the nested dictionary, 3. Add a new hobby to one of the students' data, 4. Print the entire contents of the dictionary after it has been updated.
+! Category: Easy
+Todo: Create a nested dictionary that stores information about two students. Each student has the following data: Name, Age, Favorite Subject. Instructions: 1. Create a dictionary with a nested structure containing data for two students, 2. Display the age of one of the students using access to the nested dictionary, 3. Add a new hobby to one of the students' data, 4. Print the entire contents of the dictionary after it has been updated.
 """
 
 students = {
@@ -16,8 +16,8 @@ print(f"add a new hobby to one of the students: {students["Student2"]["Hobby"]}"
 print(f"\nprint the updated dictionary: {students}\n")
 
 """
-! category : medium
-TODO : You are given a nested dictionary containing product data in online store categories. Each category has several products, where each product has the following information: Product Name, Price, Stock. Instructions: 1. Create a dictionary with a nested structure for at least two product categories (example: Electronics and Fashion), 2. Display the price of one product in a specific category, 3. Update the stock of one product in that category, 4. Add a new product to one of the categories, 5. Print the updated dictionary.
+! Category: Medium
+Todo: You are given a nested dictionary containing product data in online store categories. Each category has several products, where each product has the following information: Product Name, Price, Stock. Instructions: 1. Create a dictionary with a nested structure for at least two product categories (example: Electronics and Fashion), 2. Display the price of one product in a specific category, 3. Update the stock of one product in that category, 4. Add a new product to one of the categories, 5. Print the updated dictionary.
 """
 
 products = {
