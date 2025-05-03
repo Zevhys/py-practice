@@ -1,6 +1,6 @@
 """
-! category : easy
-todo : Create a program that asks the user to enter 5 integer numbers and stores them in a list. Check if at least one number in the list is negative.
+! category: Easy
+Todo: Create a program that asks the user to enter 5 integer numbers and stores them in a list. Check if at least one number in the list is negative.
 """
 
 number_input = list(map(int, input("enter numbers: ").split()))
@@ -11,11 +11,11 @@ else:
     print("all numbers are non-negative")
 
 """
-! category : medium
-todo :  Create a program that asks the user to enter a sentence. Check if all the words in the sentence have more than 3 letters.
+! Category: Medium
+Todo: Create a program that asks the user to enter a sentence. Check if all the words in the sentence have more than 3 letters.
 """
 
-sentence_input = input("enter sentence: ").split()
+sentence_input = input("\nenter sentence: ").split()
 
 if all(len(word) > 3 for word in sentence_input):
     print("all words have more than 3 letters")
