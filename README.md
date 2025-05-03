@@ -20,7 +20,7 @@ This project is dedicated to learning and practicing Python programming. It cont
 <pre>
 ## Installation & Setup
 #### Linux (Ubuntu/Debian)
-1. Install Python 3 and set it as default
+1. Install Python 3 and set it as default:
    sudo apt update && sudo apt install python-is-python3
 
 #### Windows
