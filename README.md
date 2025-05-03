@@ -20,11 +20,10 @@ This project is dedicated to learning and practicing Python programming. It cont
 <pre>
 ## Installation & Setup
 #### Linux (Ubuntu/Debian)
-# Install Python 3 and set it as default
-sudo apt update && sudo apt install python-is-python3
+1. Install Python 3 and set it as default
+   sudo apt update && sudo apt install python-is-python3
 
 #### Windows
-# Download and install Python from the official website
 1. Visit https://www.python.org/downloads/windows/
 2. Download the latest Python 3 installer
 3. Run the installer and check "Add Python to PATH" during installation
