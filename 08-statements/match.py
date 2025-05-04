@@ -1,6 +1,6 @@
 """
-! category: easy
-TODO: Create a program that asks the user to enter the name of a day in English (e.g., "Monday", "Tuesday", etc.). Print the default activity for that day. You can freely determine the activities in the statements according to the name of the day, but at least 3 different days must have different activities. If the entered day is not recognized, display the message "Invalid day".
+! Category: Easy
+Todo: Create a program that asks the user to enter the name of a day in English (e.g., "Monday", "Tuesday", etc.). Print the default activity for that day. You can freely determine the activities in the statements according to the name of the day, but at least 3 different days must have different activities. If the entered day is not recognized, display the message "Invalid day".
 """
 
 day_input = input("enter the name of the day: ").lower()
@@ -24,8 +24,8 @@ match day_input:
         print("invalid day\n")
 
 """
-! category: medium
-TODO: Create a program for a drink cashier system in a simple café. The user is asked to choose one of the following 4 types of drinks: "coffee", "tea", "juice", or "water", and determine the price for each drink. After choosing a drink, the user is also asked to enter the quantity, and the program should print the total final price. The drink prices can be as follows: coffee = 15000, tea = 10000, juice = 12000, water = 5000. If the user enters a drink name that is not on the list, display "Menu not available".
+! Category: Medium
+Todo: Create a program for a drink cashier system in a simple café. The user is asked to choose one of the following 4 types of drinks: "coffee", "tea", "juice", or "water", and determine the price for each drink. After choosing a drink, the user is also asked to enter the quantity, and the program should print the total final price. The drink prices can be as follows: ‣coffee = 15000, ‣tea = 10000, ‣juice = 12000, ‣water = 5000, If the user enters a drink name that is not on the list, display "Menu not available".
 """
 
 drink_input = input("enter drink choice (coffee/tea/juice/water): ").lower()

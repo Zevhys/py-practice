@@ -1,6 +1,6 @@
 """
-! category: easy
-TODO: Create a program that asks the user to input a positive integer n. The program should then print all even numbers from 1 to n (including n if it is even).
+! Category: Easy
+Todo: Create a program that asks the user to input a positive integer n. The program should then print all even numbers from 1 to n (including n if it is even).
 """
 
 number_input = int(input("enter positive integer number: "))
@@ -10,8 +10,8 @@ for n in range(1, number_input + 1):
         print(f"{n}")
 
 """
-! category: medium
-TODO: Create a program that asks the user to input a sentence (string). The program should count and print: 1. The number of vowels (a, i, u, e, o), 2. The number of consonants (excluding vowels and spaces).
+! Category: Medium
+Todo: Create a program that asks the user to input a sentence (string). The program should count and print: 1. The number of vowels (a, i, u, e, o), 2. The number of consonants (excluding vowels and spaces).
 """
 
 string_input = input("\nenter a sentence: ")
