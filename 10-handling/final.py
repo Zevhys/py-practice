@@ -1,6 +1,6 @@
 """
-! category: easy
-TODO: Create a program that asks the user to input two numbers. Then, perform division of these two numbers. Catch possible errors (for example division by zero), but always display the message "program completed" at the end, regardless of whether an error occurred or not.
+! Category: Easy
+Todo: Create a program that asks the user to input two numbers. Then, perform division of these two numbers. Catch possible errors (for example division by zero), but always display the message "program completed" at the end, regardless of whether an error occurred or not.
 """
 
 try:
@@ -16,8 +16,8 @@ finally:
     print("program completed\n")
 
 """
-! category: medium
-TODO: Create a function read_file_content() that accepts one parameter which is a file name (str). This function must try to open the file and display the contents of the file. If the file is not found, display an appropriate message. Display the message "file reading process completed", which must appear regardless of the outcome of the process.
+! Category: Medium
+Todo: Create a function read_file_content() that accepts one parameter which is a file name (str). This function must try to open the file and display the contents of the file. If the file is not found, display an appropriate message. Display the message "file reading process completed", which must appear regardless of the outcome of the process.
 """
 
 

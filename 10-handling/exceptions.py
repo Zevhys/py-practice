@@ -1,6 +1,6 @@
 """
-! category: easy
-TODO: Create a program that asks the user to enter two numbers and divides them (first number divided by the second number). Use try-except to handle possible errors during input or when the division is performed. The program must be able to display an error message if: The input is not a number, Division by zero occurs.
+! Category: Easy
+Todo: Create a program that asks the user to enter two numbers and divides them (first number divided by the second number). Use try-except to handle possible errors during input or when the division is performed. The program must be able to display an error message if: ‣The input is not a number, ‣Division by zero occurs.
 """
 
 try:
@@ -15,8 +15,8 @@ else:
     print(f"\n{a} / {b} = {result:,.0f}\n")
 
 """
-! category: medium
-TODO: Create a function called process_data that accepts a list of mixed data (strings, numbers, and others). This function will try to convert each item in the list to an integer. If there's an item that can't be converted to an integer, skip that item without stopping the program, and display an error message like: "Cannot convert 'abc' to integer."
+! Category: Medium
+Todo: Create a function called process_data that accepts a list of mixed data (strings, numbers, and others). This function will try to convert each item in the list to an integer. If there's an item that can't be converted to an integer, skip that item without stopping the program, and display an error message like: "Cannot convert 'abc' to integer."
 """
 
 
