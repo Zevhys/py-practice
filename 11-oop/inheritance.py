@@ -1,6 +1,6 @@
 """
-! category: easy
-TODO: Create two classes: 1. Person with the following attributes: name, age, A method greet() that prints a greeting with the person's name and age. 2. Student as a subclass of Person, with an additional attribute: major, A method introduce() that prints complete information (name, age, and major).
+! Category: Easy
+Todo: Create two classes: 1. Person with the following attributes: ‣name, ‣age, ‣A method greet() that prints a greeting with the person's name and age, 2. Student as a subclass of Person, with an additional attribute: ‣major, ‣A method introduce() that prints complete information (name, age, and major).
 """
 
 
@@ -27,8 +27,8 @@ student1.greet()
 student1.introduce()
 
 """
-! category: medium
-TODO: Create the following three classes: 1. Parent class named Employee with the following attributes: name, salary, A method get_info() that prints the name and salary. 2. Subclass named Manager that inherits from Employee, with an additional attribute: department, Override the get_info() method to include department information. 3. Subclass named Intern that also inherits from Employee, with an additional attribute: duration_months, Override the get_info() method to display the internship duration.
+! Category: Medium
+Todo: Create the following three classes: 1. Parent class named Employee with the following attributes: ‣name, ‣salary, ‣A method get_info() that prints the name and salary. 2. Subclass named Manager that inherits from Employee, with an additional attribute: ‣department, ‣Override the get_info() method to include department information. 3. Subclass named Intern that also inherits from Employee, with an additional attribute: ‣duration_months, ‣Override the get_info() method to display the internship duration.
 """
 
 

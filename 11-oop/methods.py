@@ -1,6 +1,6 @@
 """
-! category: easy
-TODO: Create a class named Coffee that represents coffee sales in a coffee shop. The class must have: A class attribute total_sold that keeps track of the total number of coffee cups sold, A class method named sell_cup() that increments total_sold by 1 each time it is called, Display the total coffee sales after selling a few cups.
+! Category: Easy
+Todo: Create a class named Coffee that represents coffee sales in a coffee shop. The class must have: 1. A class attribute total_sold that keeps track of the total number of coffee cups sold, 2. A class method named sell_cup() that increments total_sold by 1 each time it is called, 3. Display the total coffee sales after selling a few cups.
 """
 
 
@@ -19,8 +19,8 @@ cofee.sell_cup()
 cofee.sell_cup()
 
 """
-! category: medium
-TODO: Create a class named Employee to store employee data. This class should have: Instance attributes: name, position, and salary, An instance method display() to display the employee's information, A class method from_string() that accepts a string in the format "Name-Position-Salary" and returns it as a new instance of the Employee class.
+! Category: Medium
+Todo: Create a class named Employee to store employee data. This class should have: 1. Instance attributes: name, position, and salary, 2. An instance method display() to display the employee's information, 3. A class method from_string() that accepts a string in the format "Name-Position-Salary" and returns it as a new instance of the Employee class.
 """
 
 

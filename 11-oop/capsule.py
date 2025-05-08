@@ -1,6 +1,6 @@
 """
-! category: easy
-TODO: 1. Create a Student class with the following attributes: __name (private): student name, __nim (private): student ID number, __score (private): student's score (0-100). 2. Implement the following methods in the Student class: Constructor to initialize attributes, Getters and setters for the name and nim attributes, Setter for score that ensures the value is not less than 0 and not more than 100, Method get_grade() that returns a grade based on the score: A: 80-100, B: 70-79, C: 60-69, D: 50-59, E: 0-49.
+! Category: Easy
+Todo: 1. Create a Student class with the following attributes: ‣__name (private): student name, ‣__nim (private): student ID number, ‣__score (private): student's score (0-100), 2. Implement the following methods in the Student class: ‣Constructor to initialize attributes, ‣Getters and setters for the name and nim attributes, ‣Setter for score that ensures the value is not less than 0 and not more than 100, ‣Method get_grade() that returns a grade based on the score: •A: 80-100, •B: 70-79, •C: 60-69, •D: 50-59, •E: 0-49.
 """
 
 
@@ -66,8 +66,8 @@ student1.set_score(-10)
 print(f"after: {student1.get_score()}\n")
 
 """
-! category: medium
-TODO: 1. Create a MediaFile class with the following attributes: __title (private): file title, __artist (private): artist name, __duration (private): duration in seconds, __played_count (private): how many times the media has been played. 2. Implement the following methods in the MediaFile class: Constructor to initialize attributes, Getters for all attributes, Method play() that increases __played_count and displays the message "Playing [title] by [artist]", Method get_duration_str() that converts duration from seconds to "mm:ss" format. 3. Create a MediaPlayer class that will use abstraction to hide media management details: Attribute __playlist (private): list to store MediaFile objects, Methods: add_media(title, artist, duration): creates a new MediaFile object and adds it to the playlist, play_media(title): plays media with a specific title, get_most_played(): returns the most frequently played media, display_playlist(): displays all media in the playlist.
+! Category: Medium
+Todo: 1. Create a MediaFile class with the following attributes: ‣__title (private): file title, ‣__artist (private): artist name, ‣__duration (private): duration in seconds, ‣__played_count (private): how many times the media has been played, 2. Implement the following methods in the MediaFile class: ‣Constructor to initialize attributes, ‣Getters for all attributes, ‣Method play() that increases __played_count and displays the message "Playing [title] by [artist]", ‣Method get_duration_str() that converts duration from seconds to "mm:ss" format, 3. Create a MediaPlayer class that will use abstraction to hide media management details: ‣Attribute __playlist (private): list to store MediaFile objects, ‣Methods: •add_media(title, artist, duration): creates a new MediaFile object and adds it to the playlist, •play_media(title): plays media with a specific title, •get_most_played(): returns the most frequently played media, •display_playlist(): displays all media in the playlist.
 """
 
 
@@ -78,28 +78,28 @@ class MediaFile:
         self.__duration = duration
         self.__played_count = played_count
 
-        def get_title(self):
-            return self.__title
+    def get_title(self):
+        return self.__title
 
-        def get_artist(self):
-            return self.__artist
+    def get_artist(self):
+        return self.__artist
 
-        def get_duration(self):
-            return self.__duration
+    def get_duration(self):
+        return self.__duration
 
-        def get_played_count(self):
-            return self.__played_count
+    def get_played_count(self):
+        return self.__played_count
 
-        def play(self):
-            self.__played_count += 1
-            print("")
-            print(f"playing {self.__title} by {self.__artist}")
+    def play(self):
+        self.__played_count += 1
+        print("")
+        print(f"playing {self.__title} by {self.__artist}")
 
-        def get_duration_str(self):
-            minute = self.__duration // 60
-            second = self.__duration % 60
+    def get_duration_str(self):
+        minute = self.__duration // 60
+        second = self.__duration % 60
 
-            return f"{minute:02d}:{second:02d}"
+        return f"{minute:02d}:{second:02d}"
 
 
 class MediaPlayer:
@@ -136,7 +136,7 @@ class MediaPlayer:
             print("playlist is empty")
             return
 
-        print("\n=== PLAYLIST ===")
+        print("\n=== playlist ===")
         for i, media in enumerate(self.__playlist, 1):
             title = media.get_title()
             artist = media.get_artist()
