@@ -1,6 +1,6 @@
 """
-! category: easy
-TODO:Create a function named filter_words that uses a generator expression to filter words from a list. This function must: 1. Accept two parameters: words: A list containing words (strings), min_length: The minimum length of words to be filtered (integer). 2. Use a generator expression (not a list comprehension) to filter words with lengths greater than or equal to min_length. 3. Return the generator expression directly (without converting it to a list). 4. Add code to test the function by calling filter_words using the following word list: ["apple", "banana", "cherry", "date", "elderberry", "fig"] and min_length 5, then print the results using a for loop.
+! Category: Easy
+Todo: Create a function named filter_words that uses a generator expression to filter words from a list. This function must: 1. Accept two parameters: ‣words: A list containing words (strings), ‣min_length: The minimum length of words to be filtered (integer), 2. Use a generator expression (not a list comprehension) to filter words with lengths greater than or equal to min_length, 3. Return the generator expression directly (without converting it to a list), 4. Add code to test the function by calling filter_words using the following word list: ["apple", "banana", "cherry", "date", "elderberry", "fig"] and min_length 5, then print the results using a for loop.
 """
 
 
@@ -14,8 +14,8 @@ def filter_words(words, min_length):
 test = filter_words(["apple", "banana", "cherry", "date", "elderberry", "fig"], 5)
 
 """
-! category: medium
-TODO: Create a function named sum_of_squares that uses a generator expression to calculate the sum of squares of numbers that meet a specific condition. This function must: 1. Accept two parameters: numbers: A list containing numbers (integers or floats), condition: A string representing the filtering condition, which can be: "even" = only even numbers, "odd" = only odd numbers, "positive" = only positive numbers, "all" = all numbers. 2. Use a generator expression to: Filter numbers based on the given condition, Calculate the square of each filtered number, Use the sum() function to add up all these squares. 3. Return the sum of these squares, 4. Add code to test the function by calling sum_of_squares using the following list of numbers: [-3, -2, -1, 0, 1, 2, 3, 4] and print the results for each condition ("even", "odd", "positive", and "all").
+! Category: Medium
+Todo: Create a function named sum_of_squares that uses a generator expression to calculate the sum of squares of numbers that meet a specific condition. This function must: 1. Accept two parameters: ‣numbers: A list containing numbers (integers or floats), ‣condition: A string representing the filtering condition, which can be: •"even" = only even numbers, •"odd" = only odd numbers, •"positive" = only positive numbers, •"all" = all numbers, 2. Use a generator expression to: ‣Filter numbers based on the given condition, ‣Calculate the square of each filtered number, ‣Use the sum() function to add up all these squares, 3. Return the sum of these squares, 4. Add code to test the function by calling sum_of_squares using the following list of numbers: [-3, -2, -1, 0, 1, 2, 3, 4] and print the results for each condition ("even", "odd", "positive", and "all").
 """
 
 
