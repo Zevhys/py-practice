@@ -1,6 +1,7 @@
 # py-practice
 
-[![Author](http://img.shields.io/badge/author-@Zevhys-blue.svg)](https://www.linkedin.com/in/rakha-djauhari/) [![GitHub license](https://img.shields.io/github/license/Zevhys/py-practice)](https://github.com/Zevhys/py-practice/blob/main/LICENSE) ![GitHub repo size](https://img.shields.io/github/repo-size/Zevhys/py-practice) [![Issues Welcome](https://img.shields.io/badge/issues-welcome-brightgreen.svg)](https://github.com/Zevhys/py-practice/issues)
+[![Author](http://img.shields.io/badge/author-@Zevhys-blue.svg)](https://www.linkedin.com/in/rakha-djauhari/) [![GitHub license](https://img.shields.io/github/license/Zevhys/py-practice)](https://github.com/Zevhys/py-practice/blob/main/LICENSE) ![GitHub repo size](https://img.shields.io/github/repo-size/Zevhys/py-practice) [![Issues Welcome](https://img.shields.io/badge/issues-welcome-brightgreen.svg)](https://github.com/Zevhys/py-practice/issues) [![Pull Requests Welcome](https://img.shields.io/badge/pull%20requests-welcome-brightgreen.svg)](https://github.com/Zevhys/py-practice/pulls)
+
 
 <div align="center">
   <img src="thumbnail.webp" height="500px">
